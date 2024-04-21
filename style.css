@@ -14,23 +14,34 @@ nav {
     margin-bottom: 100px;
     display: flex;
     justify-content:space-between ;
-    flex-basis: 100px;
+    /* flex-basis: 100px; */
+    /* width: 100%; */
     /* background-color: aqua; */
 }
+
+nav .links {
+    width: 40%;
+}
+
 nav ul {
+    display: flex;
     align-self: center;
     justify-content: space-between;
 
 }
 
 nav ul li {
-    display: inline-flex;
+    list-style: none;
     margin: 5px;
     
 }
 
+nav .button{
+    width: 20%;
+}
+
 nav button  {
-    width: 250px;
+    width: 50%;
     height: 50px;
     border-radius: 25px;
     border: none;
@@ -38,12 +49,15 @@ nav button  {
     a{
         color: white;
     }
-    
 }
 
 nav a {
     text-decoration: none;
     color: black;
+}
+
+nav .logo {
+    width: 20%;
 }
 nav img {
     margin-right: 450px;
@@ -217,18 +231,26 @@ h1 {
 
 /* PARTNERS */
 
-.partners {
+.partners div{
     clear: both;
     padding-top: 100px;
+    width: 100%;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
-.partners section {
+.partners div {
+    margin-top: 0;
+}
+
+.partners div section {
    height: 60px;
-   width: 200px;
-   background-color: brown;
-   
+   width: 16%;
+}
+
+.partners div section img {
+    display: flex;
+    width: 100%;
 }
 
 
@@ -254,19 +276,40 @@ h1 {
 
 .fourth .tabs {
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
     margin-bottom: 80px;
     justify-content: space-between;
 }
 
+.fourth .tabs .tab img {
+    display: block;
+    width: 35%;
+    height: 50%;
+    position: relative;
+    top: -60px;
+    left: 30%;
+    margin-bottom: 0;
+}
+
 .fourth .tabs .tab {
-    background-color: lightgray;
     width: 30%;
-    height: 200px;
-    align-items: center;
+    height: fit-content;
+    justify-content: space-between;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.fourth .tabs .tab p,h3 {
+    width: 80%;
+    margin-left: 10%;
+   text-align: center;
 }
 
 .fourth .tabs .tab p {
-    display: flex;
-   text-align: center;
-    margin: 0 25px;
+    margin-bottom: 10px;
+}
+.fourth .tabs .tab h3 {
+    width: 60;
+    margin-bottom: 20px;
 }
