@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-nav,.first, .second, .third, .fourth {
+nav,.first, .second, .third, .fourth, .sixth, .seventh-container {
     margin-right: 5%;
     margin-left: 5%;
 }
@@ -49,6 +49,14 @@ nav button  {
     a{
         color: white;
     }
+}
+
+.nav-button {
+    transition: ;
+}
+.nav-button:hover {
+    transition: 1s;
+    transform:scale(1.1);
 }
 
 nav a {
@@ -313,3 +321,158 @@ h1 {
     width: 60;
     margin-bottom: 20px;
 }
+
+/* FIFTH  */
+
+.fifth {
+    background-color: black;
+    background-image: url(Assets/Images/Vector\ black.png);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 150px;
+}
+
+.fifth div {
+    margin: 20px 10px 0 20px;
+    width: 45%;
+}
+
+.fifth .texts {
+    width: 55%;
+ margin-top: 50px;
+ margin-left: 5%;
+ padding-left: 5%;
+ display: grid;
+ grid-template-rows: auto auto auto;
+ grid-template-rows: auto ;
+ height: fit-content;
+}
+.fifth .texts h2 {
+ margin: 100px 0 50px;
+ width:90%;
+ 
+ font-size: 3.5rem;
+ 
+}
+
+.fifth .texts p {
+ margin: 0 0 50px;
+ width: 60%;
+ font-size: 1.5rem;
+}
+
+.fifth .image {
+ height: 100%;
+}
+
+.fifth .image img {
+    width: 100%;
+}
+
+.fifth .texts button {
+    width: 30%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: blueviolet;
+}
+
+/* BREAK  */
+
+.break h2 {
+    text-align: center ;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.break p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* SIXTH  */
+
+.sixth {
+padding-top: 100px;
+}
+
+.sixth .top {
+    background-color: lightgray;
+}
+
+.sixth .buttom {
+    background-color: lightpink;
+}
+
+.sixth .top, .buttom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.sixth .top{
+    margin-bottom: 100px;
+}
+
+
+.sixth.top .image, .texts {
+    width: 50%;
+}
+
+.sixth .texts h2, p {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.sixth .texts h2 {
+    font-size: 2.5rem;
+}
+
+.sixth .texts p {
+    font-size: 1.5rem;
+}
+
+.sixth img {
+    width: 100%;
+}
+
+/* SEVENTH  */
+
+.seventh {
+    background-color: blue;
+}
+
+.seventh .text{
+    width: 100%;
+    padding-top: 150px;
+}
+
+.seventh .text h2 {
+    width: 50%;
+    font-size: 4rem;
+}
+
+.seventh .seventh-container #images .image {
+    width: 45%;
+} 
+
+.seventh #images {
+    display: flex; 
+    justify-content: space-between;
+}
+.seventh #images .main {
+    width: 100%;
+}
+
+.seventh #images .image .plus {
+    position: relative;
+    top:-80%;
+    left: 90%;
+    flex-shrink: inherit;
+}
+
+
+
+
