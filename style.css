@@ -441,7 +441,7 @@ padding-top: 100px;
 /* SEVENTH  */
 
 .seventh {
-    background-color: blue;
+    background-image: url(Assets/Images/Vector\ green.png);
 }
 
 .seventh .text{
@@ -451,7 +451,10 @@ padding-top: 100px;
 
 .seventh .text h2 {
     width: 50%;
-    font-size: 4rem;
+    font-size: 4rem;    
+}
+.seventh span {
+    color: green;
 }
 
 .seventh .seventh-container #images .image {
@@ -468,9 +471,19 @@ padding-top: 100px;
 
 .seventh #images .image .plus {
     position: relative;
-    top:-80%;
+    top:-75%;
     left: 90%;
     flex-shrink: inherit;
+}
+
+.seventh #images .image h2 {
+    width: 40%;
+    font-size: 3rem;
+    display: inline-flex;
+    position: relative;
+    top:-50%;
+    left: -5%;
+    color: white;
 }
 
 
