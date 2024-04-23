@@ -442,6 +442,7 @@ padding-top: 100px;
 
 .seventh {
     background-image: url(Assets/Images/Vector\ green.png);
+    margin-bottom: 10px;
 }
 
 .seventh .text{
@@ -474,6 +475,7 @@ padding-top: 100px;
     top:-75%;
     left: 90%;
     flex-shrink: inherit;
+    width: fit-content;
 }
 
 .seventh #images .image h2 {
@@ -485,6 +487,103 @@ padding-top: 100px;
     left: -5%;
     color: white;
 }
+
+/* EIGHT  */
+
+.eight {
+    
+    display: flex;
+    justify-content: space-between;
+    /* color: white */
+    /* margin-bottom: 150px; */
+}
+
+.eight div {
+    margin: 20px 10px 0 20px;
+    width: 45%;
+}
+
+.eight .texts {
+    width: 60%;
+ /* margin-top: 0px; */
+ margin-left: 5%;
+ padding-left: 5%;
+ display: grid;
+ grid-template-rows: auto auto auto;
+ grid-template-rows: auto ;
+ height: fit-content;
+}
+.eight .texts h2 {
+ margin: 10px 0 50px;
+ width:100%;
+ 
+ font-size: 3.5rem;
+ 
+}
+
+.eight .texts a {
+    text-decoration: none;
+}
+.eight .texts p {
+ margin: 0 0 50px;
+ width: 60%;
+ font-size: 2rem;
+}
+
+.eight .image {
+ height: inherit;
+}
+
+.eight .image img {
+    width: fit-content%;
+}
+
+.eight .texts button {
+    width: 30%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: blueviolet;
+    a {
+        color: white;
+    }
+}
+
+.ninth {
+    background-image: url(Assets/Images/daba\ city\ 1.png);
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.ninth div button { 
+    display: flex;
+    margin-left: 45%;
+    padding: 20px 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: blueviolet;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+}
+
+.ninth div h2 {
+    width: 80%;
+    margin-left: 10%; 
+    text-align: center;
+    margin-bottom:30px ;
+    line-height: 110%;
+    font-size: 3rem;
+    color: white;
+}
+
+
 
 
 
