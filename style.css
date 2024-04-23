@@ -51,9 +51,7 @@ nav button  {
     }
 }
 
-.nav-button {
-    transition: ;
-}
+
 .nav-button:hover {
     transition: 1s;
     transform:scale(1.1);
@@ -475,7 +473,6 @@ padding-top: 100px;
     top:-75%;
     left: 90%;
     flex-shrink: inherit;
-    width: fit-content;
 }
 
 .seventh #images .image h2 {
@@ -535,7 +532,7 @@ padding-top: 100px;
 }
 
 .eight .image img {
-    width: fit-content%;
+    width: fit-content;
 }
 
 .eight .texts button {
