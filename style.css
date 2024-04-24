@@ -83,6 +83,9 @@ nav img {
 }
 
 .first .phone {
+    background-image: url(Assets/Images/Ellipse\ 14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 50%;
     /* float: right; */
 }
@@ -614,7 +617,7 @@ padding-top: 100px;
 
 .ninth {
     background-image: url(Assets/Images/daba\ city\ 1.png);
-    height: 130vh;
+    height: 848.71px;
     display: flex;
     justify-content: center;
     align-content: center;
