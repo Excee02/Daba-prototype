@@ -617,12 +617,13 @@ padding-top: 100px;
 
 .ninth {
     background-image: url(Assets/Images/daba\ city\ 1.png);
-    height: 848.71px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 785px;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
-    
 }
 
 .ninth div button { 
