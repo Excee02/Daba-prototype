@@ -648,4 +648,30 @@ margin-right: 0;
 
 footer {
     background-color: navy;
+    color: white;
+    padding: 40px 0;
+    
+}
+
+footer div {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+footer img {
+/* width: 10%; */
+}
+
+footer h3 {
+justify-content: center;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+footer ul li {
+    margin-left: 10px;
 }
