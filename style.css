@@ -546,6 +546,8 @@ padding-top: 100px;
     }
 }
 
+/* NINTH  */
+
 .ninth {
     background-image: url(Assets/Images/daba\ city\ 1.png);
     height: 130vh;
@@ -580,8 +582,70 @@ padding-top: 100px;
     color: white;
 }
 
+/* TENTH  */
+
+.tenth {
+    background-color: navy;
+display: flex;
+flex-wrap: wrap;
+margin-right: 0;
+}
+
+.tenth .left, .right {
+    width: 50%;
+    margin-top: 5%;
+}
+.tenth .left {
+    width: 45%;
+    margin-top: 10%;
+    display: grid;
+    height: 80%;
+    margin-left: 5%;
+    color: white;
+}
+
+.tenth .left h2 {
+    width: 80%;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.tenth .left p {
+    margin-left: 0;
+    width: 90%;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.tenth .left form {
+    display: flex;
+    width: 90%;
+    height: 50px;
+}
+
+.tenth .left form input {
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5%;
+}
+
+.tenth .left button {
+    width: 30%;
+    background-color: blueviolet;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    border-radius: 20px;
+    border: none;
+}
 
 
+.tenth .right img {
+    width: 100%;
+}
 
-
-
+footer {
+    background-color: navy;
+}
