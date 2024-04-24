@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #F8F8FD;
+}
+
 nav,.first, .second, .third, .fourth, .sixth, .seventh-container {
     margin-right: 5%;
     margin-left: 5%;
@@ -33,6 +37,7 @@ nav ul {
 nav ul li {
     list-style: none;
     margin: 5px;
+    color: #16054E;
     
 }
 
@@ -45,7 +50,7 @@ nav button  {
     height: 50px;
     border-radius: 25px;
     border: none;
-    background-color: blueviolet;
+    background-color: #8D6CFA;
     a{
         color: white;
     }
@@ -73,9 +78,17 @@ nav img {
 
 /* first div */
 
+.first {
+    display: flex;
+}
+
 .first .phone {
     width: 50%;
-    float: right;
+    /* float: right; */
+}
+
+.first .phone img {
+    width: 100%;
 }
 
 .first .text {
@@ -84,21 +97,25 @@ nav img {
 }
 .first .text h2 {
     width: 80%;
+    font-family: p;
     font-size: 50px;
-    strong {
-        color: blueviolet;
+    color: #16054E;
+    span {
+        color: #8D6CFA;
     }
 }
 
 .first .text p {
     font-size: 30px;
     margin-bottom: 70px;
+    color: #8B82A7;
 } 
 
 .first .text form {
     input {
         width: 60%;
         height: 50px;
+        border: 1px solid #DED7F6;
     }
     button {
     height: 50px;
@@ -119,6 +136,7 @@ h1 {
     text-align: center;
     font-size: 3rem;
     font-weight: bolder;
+    color: #16054E;
 }
 
 /* SECOND DIV */
@@ -166,7 +184,7 @@ h1 {
 .third .prebuilt {
     width: 45%;
     float: left;
-    background-color: gray;
+    background-color: #ffffff;
     border-radius: 20px;
 }
 .third .prebuilt section {
@@ -177,10 +195,14 @@ h1 {
 .third .prebuilt h2 {
     margin-top: 40px;
     font-size: 2.5rem;
+    color: #16054E;
+    margin-bottom: 20px;
 }
 
 .third .prebuilt p {
     font-size: 1.5rem;
+    margin-left: 0;
+    color: #8B82A7;
 }
 
 /* PREBUILT IMAGES */
@@ -205,7 +227,7 @@ h1 {
 .third .social_investing {
     width: 50%;
     float: right;
-    background-color: blueviolet;
+    background-color: #4ECC4E;
     border-radius: 20px;
 }
 
@@ -217,10 +239,14 @@ h1 {
 .third .social_investing h2 {
     margin-top: 40px;
     font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .third .social_investing p {
     font-size: 1.5rem;
+    margin-left: 0;
+    color: #ffffff;
 }
 
 .third .social_investing div {
@@ -259,9 +285,9 @@ h1 {
     width: 100%;
 }
 
+/* FOURTH  */
 
 .fourth {
-    background-color: aliceblue;
     margin-top: 100px;
 }
 
@@ -274,9 +300,10 @@ h1 {
     text-align: center;
     justify-content: center;
     font-size: 3rem;
+    color: #16054E;
 
-    strong{
-        color: blueviolet;
+    span{
+        color: #8D6CFA;
     }
 }
 
@@ -302,7 +329,7 @@ h1 {
     width: 30%;
     height: fit-content;
     justify-content: space-between;
-    background-color: blue;
+    background-color: #ffffff;
     border-radius: 20px;
 }
 
@@ -310,10 +337,12 @@ h1 {
     width: 80%;
     margin-left: 10%;
    text-align: center;
+   color: #16054E;
 }
 
 .fourth .tabs .tab p {
     margin-bottom: 10px;
+    color: #8B82A7;
 }
 .fourth .tabs .tab h3 {
     width: 60;
@@ -323,7 +352,7 @@ h1 {
 /* FIFTH  */
 
 .fifth {
-    background-color: black;
+    background-color: #060125;
     background-image: url(Assets/Images/Vector\ black.png);
     display: flex;
     justify-content: space-between;
@@ -373,7 +402,12 @@ h1 {
     height: 50px;
     border-radius: 25px;
     border: none;
-    background-color: blueviolet;
+    background-color: #8D6CFA;
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
 }
 
 /* BREAK  */
@@ -382,11 +416,13 @@ h1 {
     text-align: center ;
     font-size: 3rem;
     margin-bottom: 20px;
+    color: #16054E;
 }
 
 .break p {
     text-align: center;
     font-size: 1.5rem;
+    color: #8B82A7;
 }
 
 /* SIXTH  */
@@ -396,40 +432,62 @@ padding-top: 100px;
 }
 
 .sixth .top {
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
-.sixth .buttom {
-    background-color: lightpink;
-}
-
-.sixth .top, .buttom {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 100px;
-}
 .sixth .top{
     margin-bottom: 100px;
 }
 
 
-.sixth.top .image, .texts {
+.sixth .top .image, .texts {
     width: 50%;
 }
 
-.sixth .texts h2, p {
+.sixth .top .texts h2 {
     width: 80%;
-    margin-left: 10%;
+    color: #16054E;
 }
 
 .sixth .texts h2 {
     font-size: 2.5rem;
 }
 
-.sixth .texts p {
+.sixth .top .texts p {
+    width: 100%;
+    margin-left: 0;
     font-size: 1.5rem;
+    color: #8B82A7;
+}
+
+.sixth .buttom {
+    display: flex;
+}
+
+.sixth .top, .buttom {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.sixth .buttom .image, .texts {
+    width: 40%;
+}
+
+
+.sixth .buttom .texts h2 {
+    width: 80%;
+    margin-left: 20%;
+    color: #16054E;
+}
+
+.sixth .buttom .texts p {
+    width: 100%;
+    margin-left: 20%;
+    font-size: 1.5rem;
+    color: #8B82A7;
 }
 
 .sixth img {
@@ -451,9 +509,10 @@ padding-top: 100px;
 .seventh .text h2 {
     width: 50%;
     font-size: 4rem;    
+    color: #16054E;
 }
 .seventh span {
-    color: green;
+    color: #4ECC4E;
 }
 
 .seventh .seventh-container #images .image {
@@ -513,18 +572,20 @@ padding-top: 100px;
 .eight .texts h2 {
  margin: 10px 0 50px;
  width:100%;
- 
+ color: #16054E;
  font-size: 3.5rem;
  
 }
 
-.eight .texts a {
-    text-decoration: none;
+.eight .texts span {
+    color: #8D6CFA;
+    font-weight: 700;
 }
 .eight .texts p {
  margin: 0 0 50px;
  width: 60%;
- font-size: 2rem;
+ font-size: 1.5rem;
+ color: #8B82A7;
 }
 
 .eight .image {
@@ -532,7 +593,9 @@ padding-top: 100px;
 }
 
 .eight .image img {
-    width: fit-content;
+    width: 60%;
+    margin-left: 30%;
+    /* height: 70%; */
 }
 
 .eight .texts button {
@@ -540,9 +603,10 @@ padding-top: 100px;
     height: 50px;
     border-radius: 25px;
     border: none;
-    background-color: blueviolet;
+    background-color: #8D6CFA;
     a {
         color: white;
+        text-decoration: none;
     }
 }
 
@@ -564,7 +628,7 @@ padding-top: 100px;
     padding: 20px 35px;
     border-radius: 50px;
     border: none;
-    background-color: blueviolet;
+    background-color: #8D6CFA;
     a {
         text-decoration: none;
         color: white;
@@ -578,14 +642,15 @@ padding-top: 100px;
     text-align: center;
     margin-bottom:30px ;
     line-height: 110%;
-    font-size: 3rem;
+    font-size: 48px;
+    font-weight: 700;
     color: white;
 }
 
 /* TENTH  */
 
 .tenth {
-    background-color: navy;
+    background-color: #060125;
 display: flex;
 flex-wrap: wrap;
 margin-right: 0;
@@ -607,6 +672,7 @@ margin-right: 0;
 .tenth .left h2 {
     width: 80%;
     font-size: 3rem;
+    font-weight: 700;
     margin-bottom: 40px;
 }
 
@@ -626,18 +692,19 @@ margin-right: 0;
 .tenth .left form input {
     width: 60%;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #DED7F6;
     margin-right: 5%;
 }
 
 .tenth .left button {
     width: 30%;
-    background-color: blueviolet;
+    background-color: #8D6CFA;
     a {
         text-decoration: none;
         color: white;
     }
-    border-radius: 20px;
+
+    border-radius: 40px;
     border: none;
 }
 
@@ -646,9 +713,10 @@ margin-right: 0;
     width: 100%;
 }
 
+/* FOOTER  */
+
 footer {
-    background-color: navy;
-    color: white;
+    background-color: #060125;
     padding: 40px 0;
     
 }
@@ -657,6 +725,7 @@ footer div {
     display: flex;
     padding-left: 5%;
     padding-right: 5%;
+    color: #FFF;
 
 }
 
@@ -666,6 +735,9 @@ footer img {
 
 footer h3 {
 justify-content: center;
+color: #ffffff;
+align-items: center;
+
 }
 
 footer ul {
