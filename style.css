@@ -87,6 +87,7 @@ nav img {
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
+
     /* float: right; */
 }
 
@@ -101,7 +102,7 @@ nav img {
 .first .text h2 {
     width: 80%;
     font-family: p;
-    font-size: 50px;
+    font-size: 3rem;
     color: #16054E;
     span {
         color: #8D6CFA;
@@ -119,6 +120,7 @@ nav img {
         width: 60%;
         height: 50px;
         border: 1px solid #DED7F6;
+        border-radius: 5px;
     }
     button {
     height: 50px;
@@ -134,7 +136,7 @@ nav img {
 
 
 h1 {
-    padding-top: 250px;
+    padding-top: 100px;
     clear: both;
     text-align: center;
     font-size: 3rem;
@@ -752,4 +754,53 @@ footer ul {
 }
 footer ul li {
     margin-left: 10px;
+}
+
+@media (max-width:768px){
+    /* FIRST  */
+    .first {
+        transition: 2s;
+        background-color: aquamarine;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* column-width: 100%; */
+        grid-template-rows: auto auto;
+    }
+
+    .first-container {
+        display: flex;
+        scroll-behavior: smooth;
+        /* justify-content: center; */
+    }
+
+    .first .text {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .first .text h2 {
+        text-align: center;
+        margin-left: 10%;
+        font-size: 2.5rem;
+    }
+
+    .first .text p {
+        text-align: center;
+        /* margin-left: 10%; */
+        font-size: 2.5rem;
+    }
+
+    .first.phone {
+        width: 100%;
+        height: inherit;
+    }
+
+    .first .text form {
+        margin-left: 5%;
+    }
+
+    /* SECOND  */
+    .second .text p {
+        margin-bottom: 10px;
+    }
 }
