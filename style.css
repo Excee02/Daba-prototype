@@ -6,6 +6,7 @@
 
 body {
     background-color: #F8F8FD;
+    scroll-behavior: smooth;
 }
 
 nav,.first, .second, .third, .fourth, .sixth, .seventh-container {
@@ -87,8 +88,6 @@ nav img {
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
-
-    /* float: right; */
 }
 
 .first .phone img {
@@ -484,13 +483,13 @@ padding-top: 100px;
 
 .sixth .buttom .texts h2 {
     width: 80%;
-    margin-left: 20%;
+    margin-left: 10%;
     color: #16054E;
 }
 
 .sixth .buttom .texts p {
     width: 100%;
-    margin-left: 20%;
+    margin-left: 10%;
     font-size: 1.5rem;
     color: #8B82A7;
 }
@@ -513,7 +512,8 @@ padding-top: 100px;
 
 .seventh .text h2 {
     width: 50%;
-    font-size: 4rem;    
+    font-size: 4rem; 
+    margin-bottom: 20px;   
     color: #16054E;
 }
 .seventh span {
@@ -534,10 +534,11 @@ padding-top: 100px;
 
 .seventh #images .image .plus {
     position: relative;
-    top:-75%;
-    left: 90%;
+    top:-70%;
+    left: 85%;
     flex-shrink: inherit;
 }
+
 
 .seventh #images .image h2 {
     width: 40%;
@@ -555,8 +556,6 @@ padding-top: 100px;
     
     display: flex;
     justify-content: space-between;
-    /* color: white */
-    /* margin-bottom: 150px; */
 }
 
 .eight div {
@@ -566,7 +565,6 @@ padding-top: 100px;
 
 .eight .texts {
     width: 60%;
- /* margin-top: 0px; */
  margin-left: 5%;
  padding-left: 5%;
  display: grid;
@@ -760,7 +758,6 @@ footer ul li {
     /* FIRST  */
     .first {
         transition: 1s;
-        background-color: aquamarine;
         display: grid;
         grid-template-columns: 1fr;
         /* column-width: 100%; */
@@ -774,6 +771,7 @@ footer ul li {
     }
 
     .first .text {
+        transition: 1s;
         width: 100%;
         margin-bottom: 50px;
     }
@@ -791,8 +789,14 @@ footer ul li {
     }
 
     .first.phone {
+        background-image: url(Assets/Images/Ellipse\ 14.png);
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 100%;
-        height: inherit;
+    }
+    .first.phone img {
+        width: 100%;
+        margin-left: 30%;
     }
 
     .first .text form {
@@ -819,6 +823,7 @@ footer ul li {
     /* FIFTH  */
     .fifth {
         display: grid;
+        transition: 1.5s;
     }
 
     .fifth-container {
@@ -826,7 +831,7 @@ footer ul li {
     }
 
     .fifth .texts {
-        margin-top: ;
+        transition: 1s;
         width: 100%;
         text-align: center;
         margin-left: 0;
@@ -845,9 +850,37 @@ footer ul li {
     }
 
     .fifth .image {
+        transition: 1s;
         margin-left: 25%;
         width: 50%;
         /* height: 100%; */
-       }
+    }
+
+    .seventh .text{
+        padding-top: 50px;
+        text-align: center;
+        transition: 1.5s;
+    }
+
+    .seventh .text h2 {
+        width: 100%;
+    }
+
+    .seventh #images .image .plus {
+        position: relative;
+        top:-65%;
+        left: 80%;
+    }
+
+    /* EIGHT  */
+
+    .eight .texts button {
+        margin-bottom: 20px;
+    }
+
+    /* TENTH  */
+    .tenth .left h2 {
+        text-align: center;
+    }
 
 }
