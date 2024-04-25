@@ -314,7 +314,7 @@ h1 {
 
 .fourth .tabs {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-top: 50px;
     margin-bottom: 80px;
     justify-content: space-between;
@@ -756,10 +756,10 @@ footer ul li {
     margin-left: 10px;
 }
 
-@media (max-width:768px){
+@media (max-width:1024px) {
     /* FIRST  */
     .first {
-        transition: 2s;
+        transition: 1s;
         background-color: aquamarine;
         display: grid;
         grid-template-columns: 1fr;
@@ -800,7 +800,54 @@ footer ul li {
     }
 
     /* SECOND  */
-    .second .text p {
-        margin-bottom: 10px;
+    .second .text h2 {
+        margin-top: 10px;
     }
+
+    .second .text p {
+        margin-bottom: 20px;
+    }
+
+    /* FOURTH  */
+
+    .fourth .tabs .tab img {
+        position: relative;
+    top: -30px;
+    left: 30%;
+    }
+
+    /* FIFTH  */
+    .fifth {
+        display: grid;
+    }
+
+    .fifth-container {
+        display: flex;
+    }
+
+    .fifth .texts {
+        margin-top: ;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .fifth .texts button {
+        margin-left: 30%;
+    }
+
+    .fifth .texts p {
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    .fifth .texts h2 {
+        margin-top: 0;
+    }
+
+    .fifth .image {
+        margin-left: 25%;
+        width: 50%;
+        /* height: 100%; */
+       }
+
 }
