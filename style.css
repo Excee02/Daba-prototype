@@ -180,7 +180,7 @@ h1 {
 
 /* THIRD DIV  */
 .third {
-    background-color: gray;
+    /* background-color: gray; */
     margin-top: 50px;
    
 }
@@ -890,20 +890,80 @@ footer ul li {
         background-color: aquamarine;
     }
 
+    /* SECOND  */
     .second {
         display: flex;
         justify-content: center;
     }
 
     .second .second-container{
+        transition: 1s;
         display: grid;
     }
 
     .second .text {
+        transition: 1s;
         width: 80%;
+        margin-left: 10%;
     }
 
     .second .image {
+        transition: 1s;
         width: 80%;
+        margin-left: 10%;
+    }
+
+    /* THIRD  */
+    .third {
+        display: grid;
+    }
+
+    .third .prebuilt {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .third .social_investing {
+        width: 100%;
+    }
+
+    .third .social_investing h2 {
+        text-align: center;
+    }
+
+    .third .social_investing p {
+        text-align: center;
+    }
+
+    /* FOURTH  */
+
+    .fourth h2 {
+        margin-bottom: 100px;
+        width: 100%;
+    }
+
+    .fourth .heading {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .fourth .tabs {
+        display: grid;
+    }
+
+    .fourth .tabs .tab {
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom:100px ;
+    }
+
+    .fourth .tabs .tab img {
+        display: block;
+        width: 35%;
+        height: 50%;
+        position: relative;
+        top: -60px;
+        left: 30%;
+        margin-bottom: 0;
     }
 }
