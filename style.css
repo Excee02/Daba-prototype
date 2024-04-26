@@ -790,9 +790,9 @@ footer ul li {
     }
 
     .first .text p {
-        text-align: center;
+        text-align: left;
         /* margin-left: 10%; */
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .first.phone {
@@ -981,11 +981,14 @@ footer ul li {
 
     .sixth .top {
         /* background-color: aquamarine; */
+        transition: 1s;
         display: grid;
+        
         
     }
 
     .sixth .top .texts {
+        transition: 1s;
         width: 100%;
         h2 {
             text-align: center;
@@ -998,6 +1001,7 @@ footer ul li {
     }
 
     .sixth .buttom {
+        transition: 1s;
         display: grid;
         background-color: #8D6CFA;
     }
