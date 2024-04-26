@@ -966,4 +966,41 @@ footer ul li {
         left: 30%;
         margin-bottom: 0;
     }
+
+    /* FIFTH  */
+    .fifth-container {
+        width: 100%;
+    }
+
+    /* SEVENTH  */
+
+    .seventh .seventh-container #images {
+        display: grid;
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    .seventh .seventh-container {
+      
+        width: 100%;
+    }
+
+    .seventh .seventh-container .text {
+        width: 80%;
+        /* margin-left: 10%; */
+    }
+    .seventh .text h2 {
+        width: 100%;
+        font-size: 3rem;
+        margin-bottom: 50px; 
+    }
+
+    .seventh .seventh-container #images .image {
+        width: 80%;
+        
+    }
+
+    .seventh #images .main {
+        /* width: 80%; */
+    }
 }
