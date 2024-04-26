@@ -886,9 +886,6 @@ footer ul li {
 }
 
 @media (max-width:641px) {
-    .first {
-        background-color: aquamarine;
-    }
 
     /* SECOND  */
     .second {
