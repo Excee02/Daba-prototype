@@ -435,6 +435,13 @@ h1 {
 padding-top: 100px;
 }
 
+.sixth .top, .buttom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
 .sixth .top {
     /* background-color: lightgray; */
 }
@@ -468,13 +475,13 @@ padding-top: 100px;
     display: flex;
 }
 
-.sixth .top, .buttom {
+/* .sixth .top, .buttom {
     display: flex;
-    /* flex-wrap: wrap; */
+    
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
-}
+    margin-bottom: 100px; */
+/* } */
 
 .sixth .buttom .image, .texts {
     width: 40%;
@@ -887,6 +894,10 @@ footer ul li {
 
 @media (max-width:641px) {
 
+    .first-container .first .text p {
+        text-align: left;
+    }
+
     /* SECOND  */
     .second {
         display: flex;
@@ -964,8 +975,47 @@ footer ul li {
         margin-bottom: 0;
     }
 
-    /* FIFTH  */
-    .fifth-container {
+   
+
+    /* SIXTH  */
+
+    .sixth .top {
+        /* background-color: aquamarine; */
+        display: grid;
+        
+    }
+
+    .sixth .top .texts {
+        width: 100%;
+        h2 {
+            text-align: center;
+        }
+    }
+    .sixth .top .image {
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+
+    .sixth .buttom {
+        display: grid;
+        background-color: #8D6CFA;
+    }
+
+    .sixth .buttom .texts {
+        width: 80%;
+
+        h2 {
+            text-align: center;
+        }
+    }
+    .sixth .buttom .texts h2, p {
+        margin-left: 0;
+        width: 100%;
+    }
+
+
+    .sixth .buttom .image .sixtth {
         width: 100%;
     }
 
