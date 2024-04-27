@@ -894,6 +894,13 @@ footer ul li {
 
 @media (max-width:641px) {
 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    
+
     .first-container .first .text p {
         text-align: left;
     }
