@@ -43,6 +43,13 @@ nav ul li {
     
 }
 
+nav ul li:hover {
+    
+    text-decoration: underline;
+    transition: 2s;
+    
+}
+
 nav .button{
     width: 20%;
 }
@@ -476,13 +483,6 @@ padding-top: 100px;
     display: flex;
 }
 
-/* .sixth .top, .buttom {
-    display: flex;
-    
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 100px; */
-/* } */
 
 .sixth .buttom .image, .texts {
     width: 40%;
@@ -491,13 +491,13 @@ padding-top: 100px;
 
 .sixth .buttom .texts h2 {
     width: 80%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     color: #16054E;
 }
 
 .sixth .buttom .texts p {
     width: 100%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     font-size: 1.5rem;
     color: #8B82A7;
 }
@@ -899,6 +899,13 @@ footer ul li {
         padding: 0;
         box-sizing: border-box;
       }
+
+    /* NAV  */
+    nav .links {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
     
 
     .first-container .first .text p {
