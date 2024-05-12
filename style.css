@@ -15,14 +15,14 @@ nav,.first, .second, .third, .fourth, .sixth, .seventh-container {
     margin-left: 5%;
 }
 
-nav {
+/* nav {
     margin-top: 50px;
     margin-bottom: 100px;
     display: flex;
     justify-content:space-between ;
     /* flex-basis: 100px; */
     /* width: 100%; */
-    /* background-color: aqua; */
+    /* background-color: aqua; 
 }
 
 nav .links {
@@ -63,10 +63,10 @@ nav button  {
     a{
         color: white;
     }
-}
+} */
 
 
-button:hover {
+/* button:hover {
     transition: 1s;
     transform:scale(1.1);
 }
@@ -83,7 +83,7 @@ nav img {
     margin-right: 450px;
     flex-shrink: 0;
     flex-grow: 0;
-}
+} */
 
 /* first div */
 
@@ -508,7 +508,7 @@ padding-top: 100px;
 }
 
 /* SEVENTH  */
-
+/* sort out responsiveness issue in this part  */
 .seventh {
     background-image: url(Assets/Images/Vector\ green.png);
     margin-bottom: 10px;
@@ -906,11 +906,11 @@ footer ul li {
       }
 
     /* NAV  */
-    nav .links {
+    /* nav .links {
         position: relative;
         display: inline-block;
         cursor: pointer;
-    }
+    } */
     
 
     .first-container .first .text p {
